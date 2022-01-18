@@ -29,8 +29,8 @@
 * Preprocessor Definitions & Macros
 ******************************************************************************/
 
-#ifndef LIBRARIES_INC_LIB_IQUEUE_H_
-#define LIBRARIES_INC_LIB_IQUEUE_H_
+#ifndef LIB_IQUEUE_H_
+#define LIB_IQUEUE_H_
 
 /******************************************************************************
 * Includes
