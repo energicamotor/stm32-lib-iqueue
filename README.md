@@ -4,9 +4,8 @@ Library for creating and manage queues.
 
 ## Supported Hardware
 
-- [supported]
-- [supported]
-- [supported]
+- NUCLEO-H745ZI-Q
+- NUCLEO-L552ZE-Q
 
 ## Functions Guide
 
