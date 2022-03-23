@@ -46,6 +46,8 @@ static void cb_canbus(canbus_frame_t *frame)            //callback of a receivin
 }
 
 [...]
+iqueue_init(&q_canbus, 128, sizeof(canbus_frame_t), q_canbus_storage);
+[...]
 
 if(iqueue_dequeue(&q_canbus,&cbus_frame_rx) != I_EMPTY) //if something is waiting in the queue do something
 {
